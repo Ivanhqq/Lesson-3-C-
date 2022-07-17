@@ -4,7 +4,8 @@ void Method1()
 {
     Console.WriteLine("Просто выдает на печть");
 }
-// Method1();
+
+ Method1();
 
 // Тип 2
 
@@ -19,4 +20,15 @@ while (i < count)
 }
 
 Method2("Хасбик", 6);
+
+//Тип 3
+
+int Method3()
+{
+    return DateTime.Now.Year;
+}
+
+int year = Method3();
+Console.WriteLine (year);
+
 
