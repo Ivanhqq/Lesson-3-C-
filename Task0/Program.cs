@@ -31,4 +31,26 @@ int Method3()
 int year = Method3();
 Console.WriteLine (year);
 
+//Тип 4
+
+string Method4(int count, string text)
+{
+int i = 0;
+string result = String.Empty; //Пустая строка
+
+while (i < count)
+{
+    
+result = result + text;
+    i++;
+}
+return result;
+
+}
+string res = Method4(10, "ES");
+Console.WriteLine(res);
+
+
+
+
 
